@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
         --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
       # add the source to our apt sources
       echo \
-        "deb https://apt.dockerproject.org/repo ubuntu-trusty main" \
+        "deb https://download.docker.com/linux/ubuntu trusty main" \
           > /etc/apt/sources.list.d/docker.list
       # update the package index
       apt-get -y update
@@ -60,7 +60,7 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", inline: <<-SCRIPT
     echo "Building docker image..."
     cd /vagrant
-    docker build -t nanobox/portal --no-cache=true .
+    docker build -t mubox/portal --no-cache=true .
   SCRIPT
 
 end

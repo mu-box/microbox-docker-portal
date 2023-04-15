@@ -7,7 +7,7 @@
 
 @test "Verify hooks installed" {
   # look for a hook that should be there
-  run docker exec "hooks-test" bash -c "[ -f /opt/nanobox/hooks/configure ]"
+  run docker exec "hooks-test" bash -c "[ -f /opt/microbox/hooks/configure ]"
 
   [ "$status" -eq 0 ]
 }

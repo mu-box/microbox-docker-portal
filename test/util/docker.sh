@@ -7,7 +7,7 @@ start_container() {
     -d \
     -e "PATH=$(path)" \
     --privileged \
-    nanobox/portal
+    mubox/portal
 }
 
 stop_container() {
@@ -17,9 +17,9 @@ stop_container() {
 
 path() {
   paths=(
-    "/opt/gonano/sbin"
-    "/opt/gonano/bin"
-    "/opt/gonano/bin"
+    "/opt/gomicro/sbin"
+    "/opt/gomicro/bin"
+    "/opt/gomicro/bin"
     "/usr/local/sbin"
     "/usr/local/bin"
     "/usr/sbin"

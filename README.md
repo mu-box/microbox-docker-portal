@@ -1,6 +1,6 @@
-## nanobox-docker-portal [![Build Status Image](https://travis-ci.org/nanobox-io/nanobox-docker-portal.svg)](https://travis-ci.org/nanobox-io/nanobox-docker-portal)
+## microbox-docker-portal [![Build Status Image](https://github.com/mu-box/microbox-docker-portal/actions/workflows/ci.yaml/badge.svg)](https://github.com/mu-box/microbox-docker-portal/actions)
 
-This repo contains the files necessary to create the portal docker image for [Nanobox](http://nanobox.io) consumption.
+This repo contains the files necessary to create the portal docker image for [Microbox](http://microbox.cloud) consumption.
 
 ## Testing
 
@@ -8,4 +8,4 @@ All changes, are tested through Travi-ci. The image will be built, and tests wil
 
 ## License
 
-Mozilla Public License, version 2.0
+This project is released under [The MIT License](http://opensource.org/licenses/MIT).
